@@ -1,0 +1,45 @@
+# IJC437 Coursework – Billboard Chart Success (2000–2023)
+
+This project investigates whether Spotify audio features are associated with chart success in the Billboard Hot 100 between 2000 and 2023. Chart success is measured using a song’s peak Billboard position (lower values indicate higher success) and a Top-10 classification.
+
+# Research questions
+
+1. Which Spotify audio features are most strongly associated with peak chart position?
+2. How have the audio characteristics of Top-10 songs changed over time?
+3. Can Top-10 chart success be predicted using Spotify audio features?
+
+# Overview of the analysis
+
+The dataset combines Billboard Hot 100 chart data with Spotify audio features. The analysis follows an exploratory-to-modelling workflow, including data cleaning, exploratory visualisation, correlation analysis, and simple classification models.
+
+Repeated weekly chart entries were collapsed so that each song appears once, using its best (lowest) peak chart position. A binary Top-10 variable was then created to support classification analysis.
+
+## Key results and figures
+
+### Associations with peak chart position
+Scatterplots show the relationships between peak chart position and selected audio features. Because lower peak positions indicate higher success, negative relationships suggest that higher values of a feature are associated with better chart outcomes.
+
+**Figure 1: Scatterplots of peak chart position vs audio features**
+- Valence
+- Tempo
+- Acousticness
+
+### Changes in Top-10 songs over time
+Yearly averages of audio features were compared between Top-10 and non–Top-10 songs to isolate trends specific to highly successful tracks.
+
+**Figure 2: Time-series trends comparing Top-10 vs not Top-10 songs**
+
+### Predicting Top-10 success
+Logistic regression and a decision tree were used to assess whether Top-10 success can be predicted from Spotify audio features alone.
+
+**Figure 3: Decision tree for Top-10 classification**
+
+## Code and reproducibility
+
+All analysis code, data, tables, and figures are available in the GitHub repository. Instructions for running the analysis are provided in the repository README file.
+
+Repository:  
+https://github.com/emilyarusty-cmd/IJC437-Coursework-using-the-Billboard-dataset  
+
+**GitHub profile:**  
+https://github.com/emilyarusty-cmd
