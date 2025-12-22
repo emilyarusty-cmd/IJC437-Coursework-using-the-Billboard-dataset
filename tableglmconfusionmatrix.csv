@@ -1,0 +1,5 @@
+actual,predicted,Freq
+not top 10,not top 10,119
+top 10,not top 10,19
+not top 10,top 10,0
+top 10,top 10,0
