@@ -23,3 +23,6 @@ Tis project investigates whether Spotify audio features can explain and predict 
 2. Open RStudio and set the working directory to the project folder
 3. Install required packages: (after they have been installed they can be retrieved using 'library' instead!)
 install.packages(c("tidyverse", "rpart"))
+
+source("billboard_analysis.R")
+
