@@ -1,4 +1,4 @@
-IJC437 Coursework- Billboard Chart Success
+# IJC437 Coursework- Billboard Chart Success
 
 This repository contains my analysis for the IJC437 Introduction to Data Science coursework
 This project investigates whether Spotify audio features can explain and predict song success on the Billboard Hot 100 between the years of 2000 and 2023
