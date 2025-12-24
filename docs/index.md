@@ -4,13 +4,13 @@ This project explores whether measurable Spotify audio features can help explain
 
 This if for the IJC437 Introduction to Data Science assessment
 
-#Research questions
+Research questions
 
 1. Which Spotify audio features are associated with higher chart success?
 2. How have the characteristics of highly successful songs changed over time?
 3. Can Top 10 chart success be predicted using audio features alone?
 
-#The data and methods
+The data and methods
 
 The dataset combines weekly Billboard Hot 100 chart data with Spotify audio features.
 These include danceability, energy, valence, tempo, loudness and acousticness.
@@ -25,13 +25,13 @@ What was done is listen below:
 
 All analysis was conducted in R using functions and techniques 
 
-#The key findings
+The key findings
 
 -Individual audio features show only weak associations with the peak chart position
 -Trends over time indicate changes in the sound profile of highly successful songs, particularly in loudness and emotional tone
 -Predictive models have limited accuracy, suggesting that audio features alone cannot fully explain the chart success
 
-#Code and outputs
+Code and outputs
 
 All code/tables/figures used in the coursework report are available in themain GitHub repository:
 
