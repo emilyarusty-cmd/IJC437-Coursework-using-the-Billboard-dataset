@@ -122,7 +122,7 @@ trendtable <- dfsong %>%
 write_csv(trendtable, file.path("tables", "trendtableyearlymeans.csv"))
 write_csv(trendtable, file.path("docs", "tables", "trendtableyearlymeans.csv"))
 
-trendfeatures <- c("danceability", "energy", "loudness")
+trendfeatures <- c("danceability", "energy", "loudness", "valence", "acousticness")
 trendfeatures <- trendfeatures[trendfeatures %in% names(trendtable)]
 
 for (f in trendfeatures) {
